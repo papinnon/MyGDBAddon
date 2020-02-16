@@ -71,5 +71,5 @@ class sti(gdb.Command):
             gdb.execute("break *"+hex(base+i))
         gdb.execute("starti")
 
-sti()
+
 piebreak()
